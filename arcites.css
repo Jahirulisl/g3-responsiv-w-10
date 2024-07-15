@@ -66,12 +66,38 @@
     max-width:850;
     margin: 0 auto;
     text-align: center;
+    margin: bottom 50px;
+}
+.banner-img{
+    width:100% ;
+    margin-top: 10px;
 }
 .banner-title{
     font-size:4rem ;
     font-weight: 700;
 }
-
-
+.btn-primary{
+    background-color:#ff900e ;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    border-radius: 8px;
+    border: none;
+    
+}
 
 /* banner related content end */
+
+/* responsive media quary start */
+@media screen and (max-width:576px){
+    .nav-bar, .nav-link
+    {
+        flex-direction: column;
+    }
+    
+}
+
+
+
+/* responsive media quary end*/
