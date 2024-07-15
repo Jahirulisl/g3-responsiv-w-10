@@ -59,3 +59,19 @@
 }
 
 /* nav bar related styles end  */
+
+/* banner related content start */
+
+.banner-content{
+    max-width:850;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-size:4rem ;
+    font-weight: 700;
+}
+
+
+
+/* banner related content end */
