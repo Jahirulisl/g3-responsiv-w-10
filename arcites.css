@@ -9,3 +9,53 @@
   font-weight:400;
   font-style: normal;
 }
+
+/* shared styles  */
+.display-flex{
+    display: flex;
+}
+/* colopr dark-2  */
+.text-gray{
+    color: #424242;
+}
+
+/* color dark-3  */
+.text-light-gray{
+    color:#727272 ;
+}
+.bg-light{
+    background-color:rgb(255, 144, 14, 0.1) ;
+}
+
+
+/* header styles  */
+
+
+/* nav bar related styles start  */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-size:3rem;
+    font-weight: 700;
+}
+.nav-link{
+    
+}
+.nav-item{
+    list-style: none;
+    margin: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size:18px ;
+}
+.nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* nav bar related styles end  */
