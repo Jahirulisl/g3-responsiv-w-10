@@ -123,7 +123,33 @@ main > section{
 }
 /* tem and fature related styles end  */
 
+ /* some facts related styles start */
+ .factso-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ .fact-card{
+    border: 1px solid #ff900E;
+    width: 240px;
+    height:240px;
+    border-radius:8px;
+    text-align: center;
+    align-items: center;
+ }
+ .fact-number{
+    font-size:2.8rem ;
+    font-weight:600 ;
+    margin-top: 5px;
+ }
+ .fact-name{
+    font: size 1.25rem; 
+    font-weight: 600;m10px
+ }
+ .fact-description{
+    max-width: 540px;
+ }
 
+/* some facts related styles start */
 
 /* responsive media quary start */
 @media screen and (max-width:576px){
@@ -151,7 +177,5 @@ main > section{
 }
 
 }
-
-
 
 /* responsive media quary end*/
